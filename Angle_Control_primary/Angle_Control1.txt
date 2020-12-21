@@ -1,0 +1,86 @@
+Configuration	Angle_Control1
+STM32CubeMX 	5.6.1
+Date	11/21/2020
+MCU	STM32F103ZETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+SYS	JTAG (5 pins)	SYS_JTCK-SWCLK	PA14
+SYS	JTAG (5 pins)	SYS_JTDI	PA15
+SYS	JTAG (5 pins)	SYS_JTDO-TRACESWO	PB3
+SYS	JTAG (5 pins)	SYS_JTMS-SWDIO	PA13
+SYS	JTAG (5 pins)	SYS_NJTRST	PB4
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+23	OSC_IN	RCC_OSC_IN	
+24	OSC_OUT	RCC_OSC_OUT	
+46	PB0	GPIO_Output	
+101	PA9	USART1_TX	
+102	PA10	USART1_RX	
+105	PA13	SYS_JTMS-SWDIO	
+109	PA14	SYS_JTCK-SWCLK	
+110	PA15	SYS_JTDI	
+133	PB3	SYS_JTDO-TRACESWO	
+134	PB4	SYS_NJTRST	
+135	PB5	GPIO_Output	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+SYS	JTAG (5 pins)	SYS_JTCK-SWCLK	PA14
+SYS	JTAG (5 pins)	SYS_JTDI	PA15
+SYS	JTAG (5 pins)	SYS_JTDO-TRACESWO	PB3
+SYS	JTAG (5 pins)	SYS_JTMS-SWDIO	PA13
+SYS	JTAG (5 pins)	SYS_NJTRST	PB4
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+23	OSC_IN	RCC_OSC_IN	
+24	OSC_OUT	RCC_OSC_OUT	
+46	PB0	GPIO_Output	
+101	PA9	USART1_TX	
+102	PA10	USART1_RX	
+105	PA13	SYS_JTMS-SWDIO	
+109	PA14	SYS_JTCK-SWCLK	
+110	PA15	SYS_JTDI	
+133	PB3	SYS_JTDO-TRACESWO	
+134	PB4	SYS_NJTRST	
+135	PB5	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Angle_Control1
+Project Folder : D:\360MoveData\Users\Administrator\Desktop\Angle_Control1
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.3
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : No
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
